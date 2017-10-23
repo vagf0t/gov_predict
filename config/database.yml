@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: gov_predict_development
+  pool: 5
+  username: gov_predict
+  password: g0v_pr3d1c+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: gov_predict__test
+  pool: 5
+  username: gov_predict
+  password: g0v_pr3d1c+
