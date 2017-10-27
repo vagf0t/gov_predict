@@ -1,0 +1,2 @@
+class FederalLegislator < ApplicationRecord
+end

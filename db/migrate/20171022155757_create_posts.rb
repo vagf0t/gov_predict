@@ -9,6 +9,6 @@ class CreatePosts < ActiveRecord::Migration[5.0]
       t.timestamps
     end
     add_reference :posts, :person, foreign_key: true, null: false
-    add_reference :posts, :social_media_account, foreign_key: true, null: false
+    add_reference :posts, :social_media_account, foreign_key: true, null: true
   end
 end

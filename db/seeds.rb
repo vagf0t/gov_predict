@@ -4,5 +4,8 @@
 
 load 'db/seeds/seeds_countries.rb'
 load 'db/seeds/seeds_social_media_types.rb'
-load 'db/seeds/lists.rb'
+load 'db/seeds/seeds_lists.rb'
+load 'db/seeds/seeds_people.rb'
+load 'db/seeds/seeds_social_media_accounts.rb'
+load 'db/seeds/seeds_posts.rb'
 

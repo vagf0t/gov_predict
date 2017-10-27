@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails gov_predict: test" uuid="5871b77e-ed4a-4106-80f7-422828479ab5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gov_predict</user-name>
+    </data-source>
+    <data-source name="Rails gov_predict: development" uuid="5f5f4664-0fc8-41ff-b709-6e837f243d1b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>gov_predict</user-name>
+    </data-source>
+  </component>
+</project>
