@@ -3,7 +3,10 @@
 This is a sample application of what could be the basic setup for a *Social Media Lists* service. It is designed to host posts of users with multiple accounts in various social media. It also keeps compatibility with the legacy entity 'Federal Legislators', which is currently used by a number of services, as a store for Facebook/Twitter accounts of corresponding users. This application was developed, based on the idea of semanticly separating the *User* from his **n** *Social Media Accounts* of **m** different *social media types*. The new API is meant to preseve users and posts for ever, without allowing their deletion. Social media accounts though, can be added, removed, updated or just deactivated for a user. 
 
 ### Stack
-Ruby 2.2.4, Rails 5.0.6, PostgeSQL 10, React.js
+* Ruby 2.2.4
+* Rails 5.0.6
+* PostgeSQL 10
+* React.js
 
 ### Arcitecture
 The RoR application is provided as a service to external consumers. For the time being, the only endpoint exposed, is *posts* with indexing and searching actions available. Its API is RESTful, keeping the potential of full CRUD operations for its consumers. Some of its consumers are the React.js components, used to render the list of posts.*Posts* and relatied entities are stored in a PostgrSQL database. Creation, deletion and update of any record in the *Federal Legislators* db table, triggers corresponding functions that update *users* and their *social media accounts*. Moreover, an after-save trigger of the *Social Media Account* entity in our model, triggers the appropriate updates in *Federal Legislators* db table. Therefore, the tables remain synchronized, so as we can gradually make the external dendencies of *Federal Legislators* , consume iur new API.
