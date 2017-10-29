@@ -46,6 +46,6 @@ class Post < ApplicationRecord
         .group('posts.original_url')
         .group('posts.content')
         .group('posts.posted_at')
-        .group('posts.id').uniq
+        .group('posts.id').distinct
   end
 end

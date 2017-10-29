@@ -136,4 +136,46 @@ RSpec.describe FederalLegislator, type: :model do
     end
 
   end
+
+  describe '#update_from' do
+
+    context 'neither facebook or twitter account' do
+      it 'returns false' do
+        account = Person.find_by_name('Darth')
+                      .social_media_accounts
+                      .where(social_media_type_id: SocialMediaType.find_by_name('Instagram').id)
+                      .first
+        # If the following expectation fails, run the seeds
+        expect(account).to be_present
+        expect(subject.update_from account).to be false
+      end
+    end
+
+    context 'facebook account' do
+      it 'updates the legislator' do
+        account = Person.find_by_name('Darth')
+                      .social_media_accounts
+                      .where(social_media_type_id: SocialMediaType.find_by_name('Facebook').id)
+                      .first
+        # If the following expectation fails, run the seeds
+        expect(account).to be_present
+        expect(subject.update_from(account)).to be true
+        expect(subject.facebook_id).to eq 'Vader Facebook'
+      end
+    end
+
+    context 'twitter account' do
+      it 'updates the legislator' do
+        account = Person.find_by_name('Darth')
+                      .social_media_accounts
+                      .where(social_media_type_id: SocialMediaType.find_by_name('Twitter').id)
+                      .first
+        # If the following expectation fails, run the seeds
+        expect(account).to be_present
+        expect(subject.update_from account).to be true
+        expect(subject.twitter_username).to eq 'Vader Twitter'
+      end
+    end
+
+  end
 end
