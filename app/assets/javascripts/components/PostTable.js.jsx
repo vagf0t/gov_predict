@@ -17,7 +17,9 @@ var PostTable = createReactClass({
                                 query={this.props.query}
                                 surname_query={this.props.surname_query}
                                 account_query={this.props.account_query}
-                                post_query={this.props.post_query}/>
+                                post_query={this.props.post_query}
+                                original_link_query={this.props.original_link_query}
+                                link_query={this.props.link_query}/>
                         </div>
                     </th>
                     <th className="col-md-2">
@@ -28,7 +30,9 @@ var PostTable = createReactClass({
                                 query={this.props.query}
                                 name_query={this.props.name_query}
                                 account_query={this.props.account_query}
-                                post_query={this.props.post_query}/>
+                                post_query={this.props.post_query}
+                                original_link_query={this.props.original_link_query}
+                                link_query={this.props.link_query}/>
                         </div>
                     </th>
                     <th className="col-md-1">
@@ -39,7 +43,9 @@ var PostTable = createReactClass({
                                 query={this.props.query}
                                 name_query={this.props.name_query}
                                 surname_query={this.props.surname_query}
-                                post_query={this.props.post_query}/>
+                                post_query={this.props.post_query}
+                                original_link_query={this.props.original_link_query}
+                                link_query={this.props.link_query}/>
                         </div>
                     </th>
                     <th className="col-md-2">
@@ -50,17 +56,39 @@ var PostTable = createReactClass({
                                 query={this.props.query}
                                 name_query={this.props.name_query}
                                 surname_query={this.props.surname_query}
-                                account_query={this.props.account_query}/>
+                                account_query={this.props.account_query}
+                                original_link_query={this.props.original_link_query}
+                                link_query={this.props.link_query}/>
                         </div>
                     </th>
                     <th className="col-md-2">
                         Posted at
                     </th>
                     <th className="col-md-2">
-                        Link
+                        <div>Link</div>
+                        <div>
+                            <LinkSearchForm
+                                handleSearch={this.props.handleSearch}
+                                query={this.props.query}
+                                name_query={this.props.name_query}
+                                surname_query={this.props.surname_query}
+                                account_query={this.props.account_query}
+                                post_query={this.props.post_query}
+                                original_link_query={this.props.original_link_query}/>
+                        </div>
                     </th>
                     <th className="col-md-2">
-                        Original Link
+                        <div>Original Link</div>
+                        <div>
+                            <OriginalLinkSearchForm
+                                handleSearch={this.props.handleSearch}
+                                query={this.props.query}
+                                name_query={this.props.name_query}
+                                surname_query={this.props.surname_query}
+                                account_query={this.props.account_query}
+                                post_query={this.props.post_query}
+                                link_query={this.props.link_query}/>
+                        </div>
                     </th>
                 </tr>
                 </thead>

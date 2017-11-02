@@ -6,7 +6,9 @@ var GovPredict = createReactClass({
             name_query: null,
             surname_query: null,
             account_query: null,
-            post_query: null};
+            post_query: null,
+            link_query: null,
+            original_link_query: null};
     },
     componentDidMount: function() {
         this.getDataFromApi();
@@ -28,14 +30,18 @@ var GovPredict = createReactClass({
                            name_query,
                            surname_query,
                            account_query,
-                           post_query) {
+                           post_query,
+                           link_query,
+                           original_link_query) {
         this.setState((prevState) => {
             return {posts: prevState.posts != posts ? posts : prevState.posts,
                     query: prevState.query != query ? query : prevState.query,
                     name_query: prevState.name_query != name_query ? name_query : prevState.name_query,
                     surname_query: prevState.surname_query != surname_query ? surname_query : prevState.surname_query,
                     account_query: prevState.account_query != account_query ? account_query : prevState.account_query,
-                    post_query: prevState.post_query != post_query ? post_query : prevState.post_query
+                    post_query: prevState.post_query != post_query ? post_query : prevState.post_query,
+                    link_query: prevState.link_query != link_query ? link_query : prevState.link_query,
+                    original_link_query: prevState.original_link_query != original_link_query ? original_link_query : prevState.original_link_query
             }
         });
     },
@@ -53,6 +59,8 @@ var GovPredict = createReactClass({
                                     surname_query={this.state.surname_query}
                                     account_query={this.state.account_query}
                                     post_query={this.state.post_query}
+                                    link_query={this.state.link_query}
+                                    original_link_query={this.state.original_link_query}
                         />
                     </div>
                 </div>
@@ -66,6 +74,8 @@ var GovPredict = createReactClass({
                             surname_query={this.state.surname_query}
                             account_query={this.state.account_query}
                             post_query={this.state.post_query}
+                            link_query={this.state.link_query}
+                            original_link_query={this.state.original_link_query}
                         />
                     </div>
                 </div>

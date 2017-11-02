@@ -70,6 +70,14 @@ class Post < ApplicationRecord
     if post
       query = query.where('posts.content LIKE ?', "#{post}%")
     end
+    link = params[:link_query]
+    if link
+      query = query.where('posts.url LIKE ?', "#{link}%")
+    end
+    original_link = params[:original_link_query]
+    if original_link
+      query = query.where('posts.original_url LIKE ?', "#{original_link}%")
+    end
     query
   end
 end

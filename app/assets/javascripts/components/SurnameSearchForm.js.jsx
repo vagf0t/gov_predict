@@ -5,6 +5,7 @@ var SurnameSearchForm = createReactClass({
         var name_query = this.props.name_query;
         var account_query = this.props.account_query;
         var post_query = this.props.post_query;
+        var link_query = this.props.link_query;
 
         var self = this;
         $.ajax({
@@ -13,7 +14,8 @@ var SurnameSearchForm = createReactClass({
                     name_query: name_query,
                     surname_query: surname_query,
                     account_query: account_query,
-                    post_query: post_query},
+                    post_query: post_query,
+                    link_query: link_query},
             success: function(posts) {
                 self.props.handleSearch(
                     posts,
@@ -21,7 +23,8 @@ var SurnameSearchForm = createReactClass({
                     name_query,
                     surname_query,
                     account_query,
-                    post_query);
+                    post_query,
+                    link_query);
             },
             error: function(xhr, status, error) {
                 alert('Search error: ', status, xhr, error);

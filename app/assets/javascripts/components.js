@@ -6,4 +6,6 @@
 //= require components/SurnameSearchForm.js.jsx
 //= require components/AccountSearchForm.js.jsx
 //= require components/PostSearchForm.js.jsx
+//= require components/LinkSearchForm.js.jsx
+//= require components/OriginalLinkSearchForm.js.jsx
 
