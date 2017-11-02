@@ -6,8 +6,7 @@ module Api
     end
 
     def search
-      query = params[:query]
-      render json: Post.search_results_for(query)
+      render json: Post.search_results_for(params)
     end
   end
 end

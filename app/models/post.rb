@@ -18,25 +18,12 @@ class Post < ApplicationRecord
                 posts.id')
   end
 
-  def self.search_results_for(query)
-    Post.all_posts
+  def self.search_results_for(params)
+    query = Post.all_posts
         .joins('inner join lists_people on people.id = lists_people.person_id')
         .joins('inner join lists on lists.id = lists_people.list_id')
-        .where('people.name LIKE ? OR
-                people.surname LIKE ? OR
-                lists.name LIKE ? OR
-                social_media_types.name LIKE ? OR
-                posts.url LIKE ? OR
-                posts.original_url LIKE ? OR
-                posts.content LIKE ?',
-               "%#{query}%",
-               "%#{query}%",
-               "%#{query}%",
-               "%#{query}%",
-               "%#{query}%",
-               "%#{query}%",
-               "%#{query}%")
-        .select('social_media_accounts.user_id as social_account')
+    query = define_criteria(query, params)
+    query.select('social_media_accounts.user_id as social_account')
         .group('social_account')
         .group('people.name')
         .group('people.surname')
@@ -47,5 +34,42 @@ class Post < ApplicationRecord
         .group('posts.content')
         .group('posts.posted_at')
         .group('posts.id').distinct
+  end
+
+  def self.define_criteria(query, params)
+    search_input_criteria = params[:query]
+    if search_input_criteria
+      query = query.where('people.name LIKE ? OR
+                people.surname LIKE ? OR
+                lists.name LIKE ? OR
+                social_media_types.name LIKE ? OR
+                posts.url LIKE ? OR
+                posts.original_url LIKE ? OR
+                posts.content LIKE ?',
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%",
+                          "#{search_input_criteria}%")
+    end
+    name = params[:name_query]
+    if name
+      query = query.where('people.name LIKE ?', "#{name}%")
+    end
+    surname = params[:surname_query]
+    if surname
+      query = query.where('people.surname LIKE ?', "#{surname}%")
+    end
+    account = params[:account_query]
+    if account
+      query = query.where('social_media_types.name LIKE ?', "#{account}%")
+    end
+    post = params[:post_query]
+    if post
+      query = query.where('posts.content LIKE ?', "#{post}%")
+    end
+    query
   end
 end

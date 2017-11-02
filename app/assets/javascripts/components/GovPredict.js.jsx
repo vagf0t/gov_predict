@@ -1,7 +1,12 @@
 
 var GovPredict = createReactClass({
     getInitialState: function() {
-        return { posts: [] };
+        return { posts: [],
+            query: null,
+            name_query: null,
+            surname_query: null,
+            account_query: null,
+            post_query: null};
     },
     componentDidMount: function() {
         this.getDataFromApi();
@@ -18,8 +23,21 @@ var GovPredict = createReactClass({
             }
         });
     },
-    handleSearch: function(posts) {
-        this.setState({ posts: posts });
+    handleSearch: function(posts,
+                           query,
+                           name_query,
+                           surname_query,
+                           account_query,
+                           post_query) {
+        this.setState((prevState) => {
+            return {posts: prevState.posts != posts ? posts : prevState.posts,
+                    query: prevState.query != query ? query : prevState.query,
+                    name_query: prevState.name_query != name_query ? name_query : prevState.name_query,
+                    surname_query: prevState.surname_query != surname_query ? surname_query : prevState.surname_query,
+                    account_query: prevState.account_query != account_query ? account_query : prevState.account_query,
+                    post_query: prevState.post_query != post_query ? post_query : prevState.post_query
+            }
+        });
     },
     render: function() {
         return(
@@ -30,12 +48,25 @@ var GovPredict = createReactClass({
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <SearchForm handleSearch={this.handleSearch} />
+                        <SearchForm handleSearch={this.handleSearch}
+                                    name_query={this.state.name_query}
+                                    surname_query={this.state.surname_query}
+                                    account_query={this.state.account_query}
+                                    post_query={this.state.post_query}
+                        />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <PostTable posts={this.state.posts}/>
+                        <PostTable
+                            handleSearch={this.handleSearch}
+                            posts={this.state.posts}
+                            query={this.state.query}
+                            name_query={this.state.name_query}
+                            surname_query={this.state.surname_query}
+                            account_query={this.state.account_query}
+                            post_query={this.state.post_query}
+                        />
                     </div>
                 </div>
             </div>
