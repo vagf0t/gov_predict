@@ -78,6 +78,10 @@ class Post < ApplicationRecord
     if original_link
       query = query.where('posts.original_url LIKE ?', "#{original_link}%")
     end
+    from = params[:from_query]
+    if from
+      query = query.where('posts.posted_at >= ?', "'#{from}'")
+    end
     query
   end
 end

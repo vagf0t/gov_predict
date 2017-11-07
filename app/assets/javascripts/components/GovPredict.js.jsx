@@ -8,7 +8,8 @@ var GovPredict = createReactClass({
             account_query: null,
             post_query: null,
             link_query: null,
-            original_link_query: null};
+            original_link_query: null,
+            from_query: null};
     },
     componentDidMount: function() {
         this.getDataFromApi();
@@ -32,7 +33,8 @@ var GovPredict = createReactClass({
                            account_query,
                            post_query,
                            link_query,
-                           original_link_query) {
+                           original_link_query,
+                           from_query) {
         this.setState((prevState) => {
             return {posts: prevState.posts != posts ? posts : prevState.posts,
                     query: prevState.query != query ? query : prevState.query,
@@ -41,6 +43,7 @@ var GovPredict = createReactClass({
                     account_query: prevState.account_query != account_query ? account_query : prevState.account_query,
                     post_query: prevState.post_query != post_query ? post_query : prevState.post_query,
                     link_query: prevState.link_query != link_query ? link_query : prevState.link_query,
+                    from_query: prevState.from_query != from_query ? from_query : prevState.from_query,
                     original_link_query: prevState.original_link_query != original_link_query ? original_link_query : prevState.original_link_query
             }
         });
@@ -60,6 +63,7 @@ var GovPredict = createReactClass({
                                     account_query={this.state.account_query}
                                     post_query={this.state.post_query}
                                     link_query={this.state.link_query}
+                                    from_query={this.state.from_query}
                                     original_link_query={this.state.original_link_query}
                         />
                     </div>
@@ -75,6 +79,7 @@ var GovPredict = createReactClass({
                             account_query={this.state.account_query}
                             post_query={this.state.post_query}
                             link_query={this.state.link_query}
+                            from_query={this.state.from_query}
                             original_link_query={this.state.original_link_query}
                         />
                     </div>

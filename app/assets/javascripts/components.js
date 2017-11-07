@@ -8,4 +8,5 @@
 //= require components/PostSearchForm.js.jsx
 //= require components/LinkSearchForm.js.jsx
 //= require components/OriginalLinkSearchForm.js.jsx
+//= require components/FromSearchForm.js.jsx
 

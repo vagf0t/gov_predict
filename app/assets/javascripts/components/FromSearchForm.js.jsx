@@ -1,15 +1,23 @@
-var OriginalLinkSearchForm = createReactClass({
+
+var FromSearchForm = createReactClass({
+    componentDidMount() {
+        $(this.refs.from_query).datepicker({dateFormat: "yy-mm-dd"});
+    },
+    componentWillUnmount() {
+        $(this.refs.from_query).datepicker('destroy');
+    },
     handleSearch: function() {
-        var original_link_query = ReactDOM.findDOMNode(this.refs.original_link_query).value;
+        var from_query = ReactDOM.findDOMNode(this.refs.from_query).value;
         var query = this.props.query;
         var name_query = this.props.name_query;
-        var account_query = this.props.account_query;
-        var post_query = this.props.post_query;
         var surname_query = this.props.surname_query;
+        var post_query = this.props.post_query;
         var link_query = this.props.link_query;
-        var from_query = this.props.from_query;
+        var original_link_query = this.props.original_link_query;
+        var account_query = this.props.account_query;
 
         var self = this;
+
         $.ajax({
             url: '/api/posts/search',
             data: { query: query,
@@ -18,19 +26,18 @@ var OriginalLinkSearchForm = createReactClass({
                     account_query: account_query,
                     post_query: post_query,
                     link_query: link_query,
-                    from_query: from_query,
-                    original_link_query: original_link_query},
+                    original_link_query: original_link_query,
+                    from_query: from_query},
             success: function(posts) {
-                self.props.handleSearch(
-                    posts,
+                self.props.handleSearch(posts,
                     query,
                     name_query,
                     surname_query,
                     account_query,
                     post_query,
                     link_query,
-                    from_query,
-                    original_link_query);
+                    original_link_query,
+                    from_query);
             },
             error: function(xhr, status, error) {
                 alert('Search error: ', status, xhr, error);
@@ -42,9 +49,9 @@ var OriginalLinkSearchForm = createReactClass({
             <input onChange={this.handleSearch}
                    type="text"
                    className="form-control"
-                   placeholder="Filter by original link..."
-                   ref="original_link_query"
-                   id="original_link_query_input"/>
+                   placeholder="From..."
+                   ref="from_query"
+                   id="date_picker"/>
         )
     }
 });
