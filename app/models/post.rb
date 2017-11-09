@@ -55,33 +55,19 @@ class Post < ApplicationRecord
                           "#{search_input_criteria}%")
     end
     name = params[:name_query]
-    if name
-      query = query.where('people.name LIKE ?', "#{name}%")
-    end
+    query = query.where('people.name LIKE ?', "#{name}%") unless name.blank?
     surname = params[:surname_query]
-    if surname
-      query = query.where('people.surname LIKE ?', "#{surname}%")
-    end
+    query = query.where('people.surname LIKE ?', "#{surname}%") unless surname.blank?
     account = params[:account_query]
-    if account
-      query = query.where('social_media_types.name LIKE ?', "#{account}%")
-    end
+    query = query.where('social_media_types.name LIKE ?', "#{account}%") unless account.blank?
     post = params[:post_query]
-    if post
-      query = query.where('posts.content LIKE ?', "#{post}%")
-    end
+    query = query.where('posts.content LIKE ?', "#{post}%") unless post.blank?
     link = params[:link_query]
-    if link
-      query = query.where('posts.url LIKE ?', "#{link}%")
-    end
+    query = query.where('posts.url LIKE ?', "#{link}%") unless link.blank?
     original_link = params[:original_link_query]
-    if original_link
-      query = query.where('posts.original_url LIKE ?', "#{original_link}%")
-    end
+    query = query.where('posts.original_url LIKE ?', "#{original_link}%") unless original_link.blank?
     from = params[:from_query]
-    if from
-      query = query.where('posts.posted_at >= ?', "'#{from}'")
-    end
+    query = query.where('posts.posted_at >= ?', from.to_s) unless from.blank?
     query
   end
 end

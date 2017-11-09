@@ -1,7 +1,12 @@
 
 var FromSearchForm = createReactClass({
     componentDidMount() {
-        $(this.refs.from_query).datepicker({dateFormat: "yy-mm-dd"});
+        $(this.refs.from_query).datepicker({dateFormat: "yy-mm-dd",
+            onSelect: function() {
+                $(this).focus();
+                $(this).nextAll('input, button, textarea, a').filter(':first').focus();
+            }
+        });
     },
     componentWillUnmount() {
         $(this.refs.from_query).datepicker('destroy');
@@ -46,7 +51,7 @@ var FromSearchForm = createReactClass({
     },
     render: function() {
         return(
-            <input onChange={this.handleSearch}
+            <input onSelect={ this.handleSearch }
                    type="text"
                    className="form-control"
                    placeholder="From..."
