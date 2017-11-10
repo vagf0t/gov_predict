@@ -19,11 +19,12 @@ var PostTable = createReactClass({
                                 account_query={this.props.account_query}
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
-                    <th className="col-md-2">
+                    <th className="col-md-1">
                         <div>Surname</div>
                         <div>
                             <SurnameSearchForm
@@ -33,6 +34,7 @@ var PostTable = createReactClass({
                                 account_query={this.props.account_query}
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}/>
                         </div>
@@ -47,6 +49,7 @@ var PostTable = createReactClass({
                                 surname_query={this.props.surname_query}
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}/>
                         </div>
@@ -61,14 +64,16 @@ var PostTable = createReactClass({
                                 surname_query={this.props.surname_query}
                                 account_query={this.props.account_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
-                    <th className="col-md-2">
+                    <th className="col-md-3">
                         <div>Posted at</div>
                         <div>
-                            <FromSearchForm
+                            <div className="col-md-6">
+                              <FromSearchForm
                                 handleSearch={this.props.handleSearch}
                                 query={this.props.query}
                                 name_query={this.props.name_query}
@@ -76,7 +81,21 @@ var PostTable = createReactClass({
                                 account_query={this.props.account_query}
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}
+                                to_query={this.props.to_query}
                                 post_query={this.props.post_query}/>
+                            </div>
+                            <div className="col-md-6">
+                              <ToSearchForm
+                                handleSearch={this.props.handleSearch}
+                                query={this.props.query}
+                                name_query={this.props.name_query}
+                                surname_query={this.props.surname_query}
+                                account_query={this.props.account_query}
+                                original_link_query={this.props.original_link_query}
+                                link_query={this.props.link_query}
+                                from_query={this.props.from_query}
+                                post_query={this.props.post_query}/>
+                            </div>
                         </div>
                     </th>
                     <th className="col-md-2">
@@ -90,6 +109,7 @@ var PostTable = createReactClass({
                                 account_query={this.props.account_query}
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}/>
                         </div>
                     </th>
@@ -104,6 +124,7 @@ var PostTable = createReactClass({
                                 account_query={this.props.account_query}
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
+                                to_query={this.props.to_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>

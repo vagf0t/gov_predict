@@ -33,7 +33,7 @@ class Post < ApplicationRecord
         .group('posts.original_url')
         .group('posts.content')
         .group('posts.posted_at')
-        .group('posts.id').distinct
+        .group('posts.id').distinct.order(:id)
   end
 
   def self.define_criteria(query, params)
@@ -68,6 +68,8 @@ class Post < ApplicationRecord
     query = query.where('posts.original_url LIKE ?', "#{original_link}%") unless original_link.blank?
     from = params[:from_query]
     query = query.where('posts.posted_at >= ?', from.to_s) unless from.blank?
+    to = params[:to_query]
+    query = query.where('posts.posted_at <= ?', to.to_s) unless to.blank?
     query
   end
 end

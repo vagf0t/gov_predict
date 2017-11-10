@@ -8,6 +8,7 @@ var OriginalLinkSearchForm = createReactClass({
         var surname_query = this.props.surname_query;
         var link_query = this.props.link_query;
         var from_query = this.props.from_query;
+        var to_query = this.props.to_query;
 
         var self = this;
         $.ajax({
@@ -19,6 +20,7 @@ var OriginalLinkSearchForm = createReactClass({
                     post_query: post_query,
                     link_query: link_query,
                     from_query: from_query,
+                    to_query: to_query,
                     original_link_query: original_link_query},
             success: function(posts) {
                 self.props.handleSearch(
@@ -30,6 +32,7 @@ var OriginalLinkSearchForm = createReactClass({
                     post_query,
                     link_query,
                     from_query,
+                    to_query,
                     original_link_query);
             },
             error: function(xhr, status, error) {
