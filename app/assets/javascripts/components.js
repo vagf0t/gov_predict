@@ -10,3 +10,5 @@
 //= require components/OriginalLinkSearchForm.js.jsx
 //= require components/FromSearchForm.js.jsx
 //= require components/ToSearchForm.js.jsx
+//= require components/FederalLegislatorsSearchForm.js.jsx
+//= require components/IndustrySearchForm.js.jsx

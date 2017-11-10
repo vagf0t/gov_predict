@@ -38,7 +38,7 @@ class Post < ApplicationRecord
 
   def self.define_criteria(query, params)
     search_input_criteria = params[:query]
-    if search_input_criteria
+    unless search_input_criteria.blank?
       query = query.where('people.name LIKE ? OR
                 people.surname LIKE ? OR
                 lists.name LIKE ? OR
@@ -70,6 +70,10 @@ class Post < ApplicationRecord
     query = query.where('posts.posted_at >= ?', from.to_s) unless from.blank?
     to = params[:to_query]
     query = query.where('posts.posted_at <= ?', to.to_s) unless to.blank?
+    federal_legislators = params[:federal_legislators_query]
+    query = query.where('lists.name = ?', 'Federal Legislators') if federal_legislators=='on'
+    industry = params[:industry_query]
+    query = query.where('lists.name = ?', 'Industry') if industry=='on'
     query
   end
 end

@@ -9,6 +9,8 @@ var SearchForm = createReactClass({
         var original_link_query = this.props.original_link_query;
         var from_query = this.props.from_query;
         var to_query = this.props.to_query;
+        var industry_query = this.props.industry_query;
+        var federal_legislators_query = this.props.federal_legislators_query;
 
         var self = this;
         $.ajax({
@@ -22,6 +24,8 @@ var SearchForm = createReactClass({
                 link_query: link_query,
                 from_query: from_query,
                 to_query: to_query,
+                industry_query: industry_query,
+                federal_legislators_query: federal_legislators_query,
                 original_link_query: original_link_query},
             success: function(posts) {
                 self.props.handleSearch(
@@ -34,6 +38,8 @@ var SearchForm = createReactClass({
                     link_query,
                     from_query,
                     to_query,
+                    industry_query,
+                    federal_legislators_query,
                     original_link_query);
             },
             error: function(xhr, status, error) {

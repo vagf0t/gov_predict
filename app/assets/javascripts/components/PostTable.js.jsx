@@ -21,6 +21,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                industry_query={this.props.industry_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
@@ -36,6 +38,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
@@ -51,6 +55,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
@@ -66,6 +72,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
@@ -82,6 +90,8 @@ var PostTable = createReactClass({
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}
                                 to_query={this.props.to_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 post_query={this.props.post_query}/>
                             </div>
                             <div className="col-md-6">
@@ -94,6 +104,8 @@ var PostTable = createReactClass({
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}
                                 from_query={this.props.from_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 post_query={this.props.post_query}/>
                             </div>
                         </div>
@@ -110,6 +122,8 @@ var PostTable = createReactClass({
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
+                                industry_query={this.props.industry_query}
                                 original_link_query={this.props.original_link_query}/>
                         </div>
                     </th>
@@ -125,6 +139,8 @@ var PostTable = createReactClass({
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
+                                industry_query={this.props.industry_query}
+                                federal_legislators_query={this.props.federal_legislators_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
