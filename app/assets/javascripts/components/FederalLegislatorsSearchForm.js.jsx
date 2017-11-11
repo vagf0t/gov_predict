@@ -1,15 +1,18 @@
 var FederalLegislatorsSearchForm = createReactClass({
     handleSearch: function() {
-        var federal_legislators_query = ReactDOM.findDOMNode(this.refs.federal_legislators_query).value;
+        var federal_legislators_query = ReactDOM.findDOMNode(this.refs.federal_legislators_query).checked;
         var query = this.props.query;
         var name_query = this.props.name_query;
         var surname_query = this.props.surname_query;
         var account_query = this.props.account_query;
         var post_query = this.props.post_query;
         var link_query = this.props.link_query;
+        var original_link_query = this.props.original_link_query;
         var from_query = this.props.from_query;
         var to_query = this.props.to_query;
         var industry_query = this.props.industry_query;
+        var state_governors_query = this.props.state_governors_query;
+        var federal_agency_query = this.props.federal_agency_query;
 
         var self = this;
         $.ajax({
@@ -23,7 +26,9 @@ var FederalLegislatorsSearchForm = createReactClass({
                     industry_query: industry_query,
                     from_query: from_query,
                     to_query: to_query,
-                    link_query: link_query},
+                    state_governors_query: state_governors_query,
+                    link_query: link_query,
+                    federal_agency_query: federal_agency_query},
             success: function(posts) {
                 self.props.handleSearch(
                     posts,
@@ -32,11 +37,14 @@ var FederalLegislatorsSearchForm = createReactClass({
                     surname_query,
                     account_query,
                     post_query,
-                    from_query,
-                    to_query,
                     link_query,
+                    to_query,
+                    original_link_query,
+                    federal_legislators_query,
+                    state_governors_query,
                     industry_query,
-                    federal_legislators_query);
+                    from_query,
+                    federal_agency_query);
             },
             error: function(xhr, status, error) {
                 alert('Search error: ', status, xhr, error);

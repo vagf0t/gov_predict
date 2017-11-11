@@ -12,3 +12,5 @@
 //= require components/ToSearchForm.js.jsx
 //= require components/FederalLegislatorsSearchForm.js.jsx
 //= require components/IndustrySearchForm.js.jsx
+//= require components/StateGovernorsSearchForm.js.jsx
+//= require components/FederalAgencySearchForm.js.jsx

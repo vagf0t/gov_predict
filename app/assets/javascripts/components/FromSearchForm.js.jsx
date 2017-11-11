@@ -21,15 +21,18 @@ var FromSearchForm = createReactClass({
         var to_query = this.props.to_query;
         var original_link_query = this.props.original_link_query;
         var account_query = this.props.account_query;
-        var federal_leslators_query = this.props.federal_legislators_query;
+        var federal_legislators_query = this.props.federal_legislators_query;
         var industry_query = this.props.industry_query;
+        var state_governors_query= this.props.state_governors_query;
+        var federal_agency_query= this.props.federal_agency_query;
 
         var self = this;
 
         $.ajax({
             url: '/api/posts/search',
             data: { query: query,
-                    federal_legislators_query: federal_leslators_query,
+                    federal_legislators_query: federal_legislators_query,
+                    state_governors_query: state_governors_query,
                     industry_query: industry_query,
                     name_query: name_query,
                     surname_query: surname_query,
@@ -38,20 +41,23 @@ var FromSearchForm = createReactClass({
                     link_query: link_query,
                     original_link_query: original_link_query,
                     to_query: to_query,
-                    from_query: from_query},
+                    from_query: from_query,
+                    federal_agency_query: federal_agency_query},
             success: function(posts) {
                 self.props.handleSearch(posts,
-                    federal_leslators_query,
-                    industry_query,
                     query,
                     name_query,
                     surname_query,
                     account_query,
                     post_query,
                     link_query,
-                    original_link_query,
                     to_query,
-                    from_query);
+                    original_link_query,
+                    federal_legislators_query,
+                    state_governors_query,
+                    industry_query,
+                    from_query,
+                    federal_agency_query);
             },
             error: function(xhr, status, error) {
                 alert('Search error: ', status, xhr, error);

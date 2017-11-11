@@ -71,9 +71,13 @@ class Post < ApplicationRecord
     to = params[:to_query]
     query = query.where('posts.posted_at <= ?', to.to_s) unless to.blank?
     federal_legislators = params[:federal_legislators_query]
-    query = query.where('lists.name = ?', 'Federal Legislators') if federal_legislators=='on'
+    query = query.where('lists.name = ?', 'Federal Legislators') if federal_legislators == 'true'
     industry = params[:industry_query]
-    query = query.where('lists.name = ?', 'Industry') if industry=='on'
+    query = query.where('lists.name = ?', 'Industry') if industry == 'true'
+    state_governors = params[:state_governors_query]
+    query = query.where('lists.name = ?', 'State Governors') if state_governors == 'true'
+    federal_agency = params[:federal_agency_query]
+    query = query.where('lists.name = ?', 'Federal Agency') if federal_agency == 'true'
     query
   end
 end

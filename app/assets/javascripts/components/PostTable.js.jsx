@@ -22,7 +22,9 @@ var PostTable = createReactClass({
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
                                 industry_query={this.props.industry_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
+                                state_governors_query = {this.props.state_governors_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
@@ -38,6 +40,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                state_governors_query={this.props.state_governors_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
                                 industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
@@ -55,6 +59,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                state_governors_query={this.props.state_governors_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
                                 industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
@@ -72,6 +78,8 @@ var PostTable = createReactClass({
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
                                 original_link_query={this.props.original_link_query}
+                                state_governors_query={this.props.state_governors_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
                                 industry_query={this.props.industry_query}
                                 link_query={this.props.link_query}/>
@@ -90,7 +98,9 @@ var PostTable = createReactClass({
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}
                                 to_query={this.props.to_query}
+                                state_governors_query={this.props.state_governors_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 industry_query={this.props.industry_query}
                                 post_query={this.props.post_query}/>
                             </div>
@@ -104,7 +114,9 @@ var PostTable = createReactClass({
                                 original_link_query={this.props.original_link_query}
                                 link_query={this.props.link_query}
                                 from_query={this.props.from_query}
+                                state_governors_query={this.props.state_governors_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 industry_query={this.props.industry_query}
                                 post_query={this.props.post_query}/>
                             </div>
@@ -122,7 +134,9 @@ var PostTable = createReactClass({
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
+                                state_governors_query={this.props.state_governors_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 industry_query={this.props.industry_query}
                                 original_link_query={this.props.original_link_query}/>
                         </div>
@@ -139,8 +153,10 @@ var PostTable = createReactClass({
                                 post_query={this.props.post_query}
                                 from_query={this.props.from_query}
                                 to_query={this.props.to_query}
+                                state_governors_query={this.props.state_governors_query}
                                 industry_query={this.props.industry_query}
                                 federal_legislators_query={this.props.federal_legislators_query}
+                                federal_agecy_query={this.props.federal_agency_query}
                                 link_query={this.props.link_query}/>
                         </div>
                     </th>
