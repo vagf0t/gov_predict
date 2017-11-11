@@ -8,14 +8,14 @@ class Post < ApplicationRecord
   def self.all_posts
     Post.joins(:person)
         .joins(social_media_account: :social_media_type)
-        .select('people.name,
-                people.surname,
-                social_media_types.name as account,
-                posts.content,
-                posts.posted_at,
-                posts.url,
-                posts.original_url,
-                posts.id')
+        .select('people.name')
+        .select('people.surname')
+        .select('social_media_types.name as account')
+        .select('posts.content')
+        .select('posts.posted_at')
+        .select('posts.url')
+        .select('posts.original_url')
+        .select('posts.id')
   end
 
   def self.search_results_for(params)
@@ -24,7 +24,7 @@ class Post < ApplicationRecord
         .joins('inner join lists on lists.id = lists_people.list_id')
     query = define_criteria(query, params)
     query.select('social_media_accounts.user_id as social_account')
-        .group('social_account')
+        .group('social_media_accounts.user_id')
         .group('people.name')
         .group('people.surname')
         .group('lists.name')

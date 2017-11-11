@@ -51,7 +51,7 @@ if person.posts.blank?
   person.social_media_accounts.each do |account|
     post = Post.new
     post.content = "#{account.social_media_type.name} content"
-    post.posted_at = Time.now
+    post.posted_at = '2017-10-2'
     post.url = "#{account.social_media_type.name} link"
     post.original_url = "original #{account.social_media_type.name} link"
     post.social_media_account = account

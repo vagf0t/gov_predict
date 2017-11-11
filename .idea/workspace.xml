@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b73b36f-04c7-41da-9484-20f092636061" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/AccountSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/AccountSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/FederalLegislatorsSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/FederalLegislatorsSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/FromSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/FromSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/GovPredict.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/GovPredict.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/IndustrySearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/IndustrySearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/LinkSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/LinkSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/NameSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/NameSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/OriginalLinkSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/OriginalLinkSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/PostSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/PostSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/PostTable.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/PostTable.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/SearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/SearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/SurnameSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/SurnameSearchForm.js.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/components/ToSearchForm.js.jsx" afterPath="$PROJECT_DIR$/app/assets/javascripts/components/ToSearchForm.js.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/post.rb" afterPath="$PROJECT_DIR$/app/models/post.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-4a80c2e8e9a7f4601912c3e6693f31d2.json" afterPath="$PROJECT_DIR$/public/assets/.sprockets-manifest-4a80c2e8e9a7f4601912c3e6693f31d2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds/seeds_posts.rb" afterPath="$PROJECT_DIR$/db/seeds/seeds_posts.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/post_spec.rb" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,45 +23,73 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator_facebook_account_should_use_twitter_account_to_update_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator facebook account should use twitter account to update legislator: gov_predict Coverage Results" MODIFIED="1509227130049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_twitter_account_updates_the_legislator__gov_predict.coverage" NAME="FederalLegislator#update_from twitter account updates the legislator: gov_predict Coverage Results" MODIFIED="1509238698868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@PostsController_GET__index_renders_the_index_json__gov_predict.coverage" NAME="PostsController GET #index renders the index json: gov_predict Coverage Results" MODIFIED="1509074617242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@Post_all_posts_should_contain_the_right_fields_in_the_result_set__gov_predict.coverage" NAME="Post#all_posts should contain the right fields in the result set: gov_predict Coverage Results" MODIFIED="1509083398891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@Development__gov_predict.coverage" NAME="Development: gov_predict Coverage Results" MODIFIED="1510405009746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_create_triggers_the_creation_of_a_person__gov_predict.coverage" NAME="FederalLegislator on legislator create triggers the creation of a person: gov_predict Coverage Results" MODIFIED="1509058814924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_create_triggers_the_creation_of_a_person__gov_predict.coverage" NAME="FederalLegislator create triggers the creation of a person: gov_predict Coverage Results" MODIFIED="1509057214244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_update_does_not_trigger_creation_of_any_person_and_updates_social_media_accounts__gov_predict.coverage" NAME="FederalLegislator on legislator update does not trigger creation of any person and updates social media accounts: gov_predict Coverage Results" MODIFIED="1509064831394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__search_renders_the_search_json__gov_predict.coverage" NAME="Api::PostsController GET #search renders the search json: gov_predict Coverage Results" MODIFIED="1509081511497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__search_renders_the_search_json__gov_predict.coverage" NAME="Api::PostsController GET #search renders the search json: gov_predict Coverage Results" MODIFIED="1510420751115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_composite_searches_should_filter_posts_on_Twitter_by_from_to_dates__gov_predict.coverage" NAME="Post#search_results_for composite searches should filter posts on Twitter by from-to dates: gov_predict Coverage Results" MODIFIED="1510419820552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__build_legislator_returns_a_federal_legislator_with_a_facebook_id__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator returns a federal legislator with a facebook id: gov_predict Coverage Results" MODIFIED="1509233759492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@Person_responds_to_dynamic_methods__gov_predict.coverage" NAME="Person responds to dynamic methods: gov_predict Coverage Results" MODIFIED="1509072718840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_delete_does_not_delete_any_person_and_deletes_the_social_media_account__gov_predict.coverage" NAME="FederalLegislator on legislator delete does not delete any person and deletes the social media account: gov_predict Coverage Results" MODIFIED="1509066918032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_create_existent_person_does_not_trigger_creation_of_any_person_and_updates_social_media_accounts__gov_predict.coverage" NAME="FederalLegislator on legislator create existent person does not trigger creation of any person and updates social media accounts: gov_predict Coverage Results" MODIFIED="1509063985024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_facebook_account__gov_predict.coverage" NAME="FederalLegislator#update_from facebook account: gov_predict Coverage Results" MODIFIED="1509238601015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__index_renders_the_index_json__gov_predict.coverage" NAME="Api::PostsController GET #index renders the index json: gov_predict Coverage Results" MODIFIED="1509081184025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__search_param_industry_query_renders_the_search_json__gov_predict.coverage" NAME="Api::PostsController GET #search param industry_query renders the search json: gov_predict Coverage Results" MODIFIED="1510422174598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_search_in_the_name_field__gov_predict.coverage" NAME="Post#search_results_for general search should search in the name field: gov_predict Coverage Results" MODIFIED="1510415765929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_or_create_legislator_Existent_legislator_should_log_if_it_failed_to_update__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_or_create_legislator Existent legislator should log if it failed to update: gov_predict Coverage Results" MODIFIED="1509230990304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_account_filter_should_filter_by_account__gov_predict.coverage" NAME="Post#search_results_for account filter should filter by account: gov_predict Coverage Results" MODIFIED="1510416105862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@IRB_console__gov_predict.coverage" NAME="IRB console: gov_predict Coverage Results" MODIFIED="1508700816521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_legislator_by_facebook_account_will_attempt_to_update_or_create_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_legislator_by_facebook_account will attempt to update or create legislator: gov_predict Coverage Results" MODIFIED="1509229210381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__build_legislator_returns_a_federal_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator returns a federal legislator: gov_predict Coverage Results" MODIFIED="1509233527229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator_neither_a_facebook_or_a_twitter_account_should_do_nothing_and_log__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator neither a facebook or a twitter account should do nothing and log: gov_predict Coverage Results" MODIFIED="1509228646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_search_in_the_account_field__gov_predict.coverage" NAME="Post#search_results_for general search should search in the account field: gov_predict Coverage Results" MODIFIED="1510414670488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@routes_for_Posts_routes__posts_to_the_posts_controller__gov_predict.coverage" NAME="routes for Posts routes /posts to the posts controller: gov_predict Coverage Results" MODIFIED="1509082213008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_not_a_federal_legislator_should_do_nothing__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators not a federal legislator should do nothing: gov_predict Coverage Results" MODIFIED="1509226496616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_or_create_legislator_Existent_legislator_should_attempt_to_update_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_or_create_legislator Existent legislator should attempt to update legislator: gov_predict Coverage Results" MODIFIED="1509230207953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_responds_to_dynamic_methods__gov_predict.coverage" NAME="SocialMediaAccount responds to dynamic methods: gov_predict Coverage Results" MODIFIED="1509225316145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict_master@Development__gov_predict.coverage" NAME="Development: gov_predict Coverage Results" MODIFIED="1510333242389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__build_legislator_returns_a_federal_legislator_with_a_twitter_username__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator returns a federal legislator with a twitter username: gov_predict Coverage Results" MODIFIED="1509234041191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@Person__gov_predict.coverage" NAME="Person: gov_predict Coverage Results" MODIFIED="1509071779438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator__gov_predict.coverage" NAME="FederalLegislator: gov_predict Coverage Results" MODIFIED="1509064983293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@routes_for_Posts_routes_api_posts_search_to_the_posts_controller__gov_predict.coverage" NAME="routes for Posts routes api/posts/search to the posts controller: gov_predict Coverage Results" MODIFIED="1509082279104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_neither_facebook_or_twitter_account_returns_false__gov_predict.coverage" NAME="FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict Coverage Results" MODIFIED="1509238194027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@ApplicationRecord__gov_predict.coverage" NAME="ApplicationRecord: gov_predict Coverage Results" MODIFIED="1509072194132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_search_in_the_url_field__gov_predict.coverage" NAME="Post#search_results_for general search should search in the url field: gov_predict Coverage Results" MODIFIED="1510415234554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_or_create_legislator_New_legislator_should_attempt_to_create_a_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_or_create_legislator New legislator should attempt to create a legislator: gov_predict Coverage Results" MODIFIED="1509233024609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController__gov_predict.coverage" NAME="Api::PostsController: gov_predict Coverage Results" MODIFIED="1509081570422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_should_contain_the_right_fields_in_the_result_set__gov_predict.coverage" NAME="Post#search_results_for should contain the right fields in the result set: gov_predict Coverage Results" MODIFIED="1509083560565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController__gov_predict.coverage" NAME="Api::PostsController: gov_predict Coverage Results" MODIFIED="1510422115905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_search_in_the_original_url_field__gov_predict.coverage" NAME="Post#search_results_for general search should search in the original url field: gov_predict Coverage Results" MODIFIED="1510415315375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_composite_searches_should_filter_posts_by_a_general_phrase_and_from_to_dates__gov_predict.coverage" NAME="Post#search_results_for composite searches should filter posts by a general phrase and from-to dates: gov_predict Coverage Results" MODIFIED="1510419915686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_lists_should_filter_federal_legislators__posts__gov_predict.coverage" NAME="Post#search_results_for lists should filter federal legislators` posts: gov_predict Coverage Results" MODIFIED="1510419455601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_composite_searches_should_filter_Pinterest_posts_of_Master_Yoda__gov_predict.coverage" NAME="Post#search_results_for composite searches should filter Pinterest posts of Master Yoda: gov_predict Coverage Results" MODIFIED="1510420330115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_should_be_triggered_upon_save__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators should be triggered upon save: gov_predict Coverage Results" MODIFIED="1509231234328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount__gov_predict.coverage" NAME="SocialMediaAccount: gov_predict Coverage Results" MODIFIED="1509070204623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_date_filters_should_filter_by_from_date__gov_predict.coverage" NAME="Post#search_results_for date filters should filter by from date: gov_predict Coverage Results" MODIFIED="1510417492229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_search_in_the_content_field__gov_predict.coverage" NAME="Post#search_results_for general search should search in the content field: gov_predict Coverage Results" MODIFIED="1510414762270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_post_filter_should_filter_by_post__gov_predict.coverage" NAME="Post#search_results_for post filter should filter by post: gov_predict Coverage Results" MODIFIED="1510416234456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_lists_should_filter_federal_legislators__gov_predict.coverage" NAME="Post#search_results_for lists should filter federal legislators: gov_predict Coverage Results" MODIFIED="1510417963613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@PostsController_GET__index_renders_the_index_json__gov_predict.coverage" NAME="PostsController GET #index renders the index json: gov_predict Coverage Results" MODIFIED="1509074617242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Development__gov_predict.coverage" NAME="Development: gov_predict Coverage Results" MODIFIED="1510418347427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_update_does_not_trigger_creation_of_any_person_and_updates_social_media_accounts__gov_predict.coverage" NAME="FederalLegislator on legislator update does not trigger creation of any person and updates social media accounts: gov_predict Coverage Results" MODIFIED="1509064831394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_date_filters_should_filter_by_from_to_dates__gov_predict.coverage" NAME="Post#search_results_for date filters should filter by from-to dates: gov_predict Coverage Results" MODIFIED="1510417752596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_on_legislator_create_existent_person_does_not_trigger_creation_of_any_person_and_updates_social_media_accounts__gov_predict.coverage" NAME="FederalLegislator on legislator create existent person does not trigger creation of any person and updates social media accounts: gov_predict Coverage Results" MODIFIED="1509063985024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Run_spec__posts_controller_spec___gov_predict.coverage" NAME="Run spec 'posts_controller_spec': gov_predict Coverage Results" MODIFIED="1510422810582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_facebook_account__gov_predict.coverage" NAME="FederalLegislator#update_from facebook account: gov_predict Coverage Results" MODIFIED="1509238601015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__index_renders_the_index_json__gov_predict.coverage" NAME="Api::PostsController GET #index renders the index json: gov_predict Coverage Results" MODIFIED="1510422711056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Api__PostsController_GET__search_param_account_query_renders_the_search_json__gov_predict.coverage" NAME="Api::PostsController GET #search param account query renders the search json: gov_predict Coverage Results" MODIFIED="1510421074140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_legislator_by_facebook_account_will_attempt_to_update_or_create_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_legislator_by_facebook_account will attempt to update or create legislator: gov_predict Coverage Results" MODIFIED="1509229210381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__build_legislator_returns_a_federal_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator returns a federal legislator: gov_predict Coverage Results" MODIFIED="1509233527229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_look_in_the_name_field__gov_predict.coverage" NAME="Post#search_results_for general search should look in the name field: gov_predict Coverage Results" MODIFIED="1510408463095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator_neither_a_facebook_or_a_twitter_account_should_do_nothing_and_log__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator neither a facebook or a twitter account should do nothing and log: gov_predict Coverage Results" MODIFIED="1509228646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_lists_should_filter_federal_agency_posts__gov_predict.coverage" NAME="Post#search_results_for lists should filter federal agency posts: gov_predict Coverage Results" MODIFIED="1510419557209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_name_filter_should_filter_by_name__gov_predict.coverage" NAME="Post#search_results_for name filter should filter by name: gov_predict Coverage Results" MODIFIED="1510415793517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_general_search_should_look_in_the_surname_field__gov_predict.coverage" NAME="Post#search_results_for general search should look in the surname field: gov_predict Coverage Results" MODIFIED="1510408432655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_responds_to_dynamic_methods__gov_predict.coverage" NAME="SocialMediaAccount responds to dynamic methods: gov_predict Coverage Results" MODIFIED="1509225316145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_original_link_filter_should_filter_by_original_link__gov_predict.coverage" NAME="Post#search_results_for original link filter should filter by original link: gov_predict Coverage Results" MODIFIED="1510416404905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_neither_facebook_or_twitter_account_returns_false__gov_predict.coverage" NAME="FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict Coverage Results" MODIFIED="1509238194027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_date_filters_should_filter_by_to_date__gov_predict.coverage" NAME="Post#search_results_for date filters should filter by to date: gov_predict Coverage Results" MODIFIED="1510417546701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_composite_searches_should_filter_federal_legislators__posts_on_Twitter__gov_predict.coverage" NAME="Post#search_results_for composite searches should filter federal legislators` posts on Twitter: gov_predict Coverage Results" MODIFIED="1510419708898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@ApplicationRecord__gov_predict.coverage" NAME="ApplicationRecord: gov_predict Coverage Results" MODIFIED="1509072194132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_should_contain_the_right_fields_in_the_result_set__gov_predict.coverage" NAME="Post#search_results_for should contain the right fields in the result set: gov_predict Coverage Results" MODIFIED="1510405869992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator_Twitter_account_should_use_facebook_account_to_update_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator Twitter account should use facebook account to update legislator: gov_predict Coverage Results" MODIFIED="1509226983744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__build_legislator_raises_an_exception_if_neither_twitter_or_facebook_account__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict Coverage Results" MODIFIED="1509237819127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_should_be_triggered_upon_save__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators should be triggered upon save: gov_predict Coverage Results" MODIFIED="1509231234328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@List__gov_predict.coverage" NAME="List: gov_predict Coverage Results" MODIFIED="1509071891387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
-    <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount__gov_predict.coverage" NAME="SocialMediaAccount: gov_predict Coverage Results" MODIFIED="1509070204623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_lists_should_filter_state_governors__posts__gov_predict.coverage" NAME="Post#search_results_for lists should filter state governors` posts: gov_predict Coverage Results" MODIFIED="1510419525035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_lists_should_filter_industry_posts__gov_predict.coverage" NAME="Post#search_results_for lists should filter industry posts: gov_predict Coverage Results" MODIFIED="1510419496316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post_search_results_for_link_filter_should_filter_by_link__gov_predict.coverage" NAME="Post#search_results_for link filter should filter by link: gov_predict Coverage Results" MODIFIED="1510416314217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@FederalLegislator_update_from_facebook_account_updates_the_legislator__gov_predict.coverage" NAME="FederalLegislator#update_from facebook account updates the legislator: gov_predict Coverage Results" MODIFIED="1509238642201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
     <SUITE FILE_PATH="coverage/gov_predict@SocialMediaAccount_update_federal_legislators_federal_legislator__update_or_create_legislator_New_legislator_should_log_if_it_fails_to_create_a_legislator__gov_predict.coverage" NAME="SocialMediaAccount#update_federal_legislators federal legislator #update_or_create_legislator New legislator should log if it fails to create a legislator: gov_predict Coverage Results" MODIFIED="1509233192713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
+    <SUITE FILE_PATH="coverage/gov_predict@Post__gov_predict.coverage" NAME="Post: gov_predict Coverage Results" MODIFIED="1510405892088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gov_predict" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -88,101 +104,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="post.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/post.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
+            <state relative-caret-position="-663">
+              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateGovernorsSearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/StateGovernorsSearchForm.js.jsx">
+      <file leaf-file-name="post_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="407">
+              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OriginalLinkSearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/OriginalLinkSearchForm.js.jsx">
+      <file leaf-file-name="posts_controller_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurnameSearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/SurnameSearchForm.js.jsx">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GovPredict.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/GovPredict.js.jsx">
+      <file leaf-file-name="seeds_posts.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds/seeds_posts.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="189" column="70" lean-forward="true" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostSearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/PostSearchForm.js.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToSearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/ToSearchForm.js.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostTable.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/PostTable.js.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="components.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchForm.js.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/SearchForm.js.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="674">
+              <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -199,7 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ujs</find>
       <find>spr</find>
       <find>turb</find>
       <find>a.people &lt;&lt; p</find>
@@ -229,6 +194,7 @@
       <find>federal</find>
       <find>indus</find>
       <find>industry_query</find>
+      <find>search_results_for</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
@@ -246,7 +212,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20171022151012_create_social_media_accounts.rb" />
         <option value="$PROJECT_DIR$/db/seeds/seeds_social_media_accounts.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/db/seeds/seeds_posts.rb" />
         <option value="$PROJECT_DIR$/config/initializers/react_server_rendering.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/post.js.jsx" />
@@ -261,9 +226,7 @@
         <option value="$PROJECT_DIR$/app/models/person.rb" />
         <option value="$PROJECT_DIR$/spec/models/person_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/routing/posts_routing_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/post_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/social_media_account.rb" />
         <option value="$PROJECT_DIR$/spec/models/social_media_account_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/federal_legislator.rb" />
@@ -291,8 +254,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/StateGovernorsSearchForm.js.jsx" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/SurnameSearchForm.js.jsx" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/ToSearchForm.js.jsx" />
-        <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/GovPredict.js.jsx" />
+        <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/db/seeds/seeds_posts.rb" />
+        <option value="$PROJECT_DIR$/spec/models/post_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -430,7 +396,123 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: gov_predict">
+  <component name="RunManager" selected="RSpec.Run spec 'posts_controller_spec': gov_predict">
+    <configuration name="Api::PostsController GET #index renders the index json: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="gov_predict" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/posts_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Api::PostsController GET #index renders the index json" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Api::PostsController GET #search param account query renders the search json: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="gov_predict" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/posts_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Api::PostsController GET #search param account query renders the search json" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Api::PostsController GET #search param industry_query renders the search json: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="gov_predict" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/posts_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Api::PostsController GET #search param industry_query renders the search json" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Api::PostsController: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="gov_predict" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/posts_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Api::PostsController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
     <configuration name="Development: gov_predict" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="gov_predict" />
@@ -454,138 +536,6 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-    </configuration>
-    <configuration name="FederalLegislator#update_from facebook account updates the legislator: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="gov_predict" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/federal_legislator_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FederalLegislator#update_from facebook account updates the legislator" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="FederalLegislator#update_from facebook account: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="gov_predict" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/federal_legislator_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FederalLegislator#update_from facebook account" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="gov_predict" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/federal_legislator_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FederalLegislator#update_from neither facebook or twitter account returns false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="FederalLegislator#update_from twitter account updates the legislator: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="gov_predict" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/federal_legislator_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FederalLegislator#update_from twitter account updates the legislator" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
     <configuration name="Production: gov_predict" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
@@ -611,7 +561,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
-    <configuration name="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Run spec 'posts_controller_spec': gov_predict" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="gov_predict" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -625,16 +575,12 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/social_media_account_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/posts_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -695,19 +641,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: gov_predict" />
       <item index="2" class="java.lang.String" itemvalue="Rake.test: gov_predict" />
       <item index="3" class="java.lang.String" itemvalue="Rake.spec: gov_predict" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from facebook account: gov_predict" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from facebook account updates the legislator: gov_predict" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from twitter account updates the legislator: gov_predict" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #search param account query renders the search json: gov_predict" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Api::PostsController: gov_predict" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #search param industry_query renders the search json: gov_predict" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #index renders the index json: gov_predict" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.Run spec 'posts_controller_spec': gov_predict" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from twitter account updates the legislator: gov_predict" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from facebook account updates the legislator: gov_predict" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from facebook account: gov_predict" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'posts_controller_spec': gov_predict" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #index renders the index json: gov_predict" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #search param industry_query renders the search json: gov_predict" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Api::PostsController: gov_predict" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Api::PostsController GET #search param account query renders the search json: gov_predict" />
       </list>
     </recent_temporary>
   </component>
@@ -729,44 +675,44 @@
       <workItem from="1510227865432" duration="8144000" />
       <workItem from="1510307863030" duration="18025000" />
       <workItem from="1510347030147" duration="14916000" />
-      <workItem from="1510398878701" duration="6402000" />
+      <workItem from="1510398878701" duration="20709000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FederalLegislator#update_from_facebook_account__gov_predict - 2017.10.29 at 03h 54m 32s.xml">
-      <configuration name="FederalLegislator#update_from facebook account: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#index_renders_the_index_json__gov_predict - 2017.11.11 at 19h 52m 04s.xml">
+      <configuration name="Api::PostsController GET #index renders the index json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_facebook_account__gov_predict - 2017.10.29 at 03h 55m 26s.xml">
-      <configuration name="FederalLegislator#update_from facebook account: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#search_param_account_query_renders_the_search_json__gov_predict - 2017.11.11 at 19h 24m 48s.xml">
+      <configuration name="Api::PostsController GET #search param account query renders the search json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_facebook_account__gov_predict - 2017.10.29 at 03h 56m 41s.xml">
-      <configuration name="FederalLegislator#update_from facebook account: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#search_param_industry_query_renders_the_search_json__gov_predict - 2017.11.11 at 19h 43m 07s.xml">
+      <configuration name="Api::PostsController GET #search param industry_query renders the search json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_facebook_account_updates_the_legislator__gov_predict - 2017.10.29 at 03h 57m 39s.xml">
-      <configuration name="FederalLegislator#update_from facebook account updates the legislator: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#search_renders_the_search_json__gov_predict - 2017.11.11 at 19h 16m 25s.xml">
+      <configuration name="Api::PostsController GET #search renders the search json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_neither_facebook_or_twitter_account_returns_false__gov_predict - 2017.10.29 at 03h 50m 12s.xml">
-      <configuration name="FederalLegislator#update_from neither facebook or twitter account returns false: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#search_renders_the_search_json__gov_predict - 2017.11.11 at 19h 17m 41s.xml">
+      <configuration name="Api::PostsController GET #search renders the search json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_twitter_account_updates_the_legislator__gov_predict - 2017.10.29 at 03h 58m 01s.xml">
-      <configuration name="FederalLegislator#update_from twitter account updates the legislator: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController_GET_#search_renders_the_search_json__gov_predict - 2017.11.11 at 19h 19m 25s.xml">
+      <configuration name="Api::PostsController GET #search renders the search json: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="FederalLegislator#update_from_twitter_account_updates_the_legislator__gov_predict - 2017.10.29 at 03h 58m 36s.xml">
-      <configuration name="FederalLegislator#update_from twitter account updates the legislator: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController__gov_predict - 2017.11.11 at 19h 38m 50s.xml">
+      <configuration name="Api::PostsController: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="SocialMediaAccount#update_federal_legislators_federal_legislator_#build_legislator_raises_an_exception_if_neither_twitter_or_facebook_account__gov_predict - 2017.10.29 at 03h 43m 21s.xml">
-      <configuration name="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Api__PostsController__gov_predict - 2017.11.11 at 19h 42m 09s.xml">
+      <configuration name="Api::PostsController: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="SocialMediaAccount#update_federal_legislators_federal_legislator_#build_legislator_raises_an_exception_if_neither_twitter_or_facebook_account__gov_predict - 2017.10.29 at 03h 43m 55s.xml">
-      <configuration name="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator raises an exception if neither twitter or facebook account: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Post#search_results_for_composite_searches_should_filter_Pinterest_posts_of_Master_Yoda__gov_predict - 2017.11.11 at 19h 12m 25s.xml">
+      <configuration name="Post#search_results_for composite searches should filter Pinterest posts of Master Yoda: gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="SocialMediaAccount#update_federal_legislators_federal_legislator_#build_legislator_returns_a_federal_legislator_with_a_twitter_username__gov_predict - 2017.10.29 at 02h 40m 56s.xml">
-      <configuration name="SocialMediaAccount#update_federal_legislators federal legislator #build_legislator returns a federal legislator with a twitter username: gov_predict" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'posts_controller_spec'__gov_predict - 2017.11.11 at 19h 53m 45s.xml">
+      <configuration name="Run spec 'posts_controller_spec': gov_predict" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310182000" />
+    <option name="totallyTimeSpent" value="324489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -867,35 +813,16 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/post.rb</url>
-          <line>77</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/post.rb</url>
-          <line>72</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/post.rb</url>
-          <line>75</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/spec/models/post_spec.rb</url>
+          <line>47</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.6/lib/rails.rb" />
-    <entry file="file://$PROJECT_DIR$/db/seeds/seeds_social_media_accounts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/social_media_account.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -997,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/server_rendering.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1023,13 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1220,10 +1133,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="71" column="73" lean-forward="true" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
+        <state relative-caret-position="-663">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds/seeds_posts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
