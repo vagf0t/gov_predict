@@ -43,5 +43,5 @@ to use the social media lists UI
 to use the API endpoint as a service consumer
 * Perform a GET request to:
 `http://localhost:3000/api/posts/search/a_string`
-to use the API endpoint for searching amoong the posts as a service consumer
+to use the API endpoint for searching among the posts as a service consumer
 
